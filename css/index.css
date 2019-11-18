@@ -1,0 +1,74 @@
+body {
+  background-color: #D4D7FE;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  width: 100%;
+  background-color: #333333;
+  padding: 2%;
+}
+header nav {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+header nav a {
+  color: #FFFFFF;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  header nav a {
+    padding: 3%;
+  }
+}
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.container .main {
+  padding-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 500px) {
+  .container .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container .main .image {
+  width: 50%;
+  margin-left: 2%;
+  padding: 5%;
+}
+@media (max-width: 500px) {
+  .container .main .image {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+.container .main .image img {
+  width: 100%;
+}
+.container .main .content1 {
+  text-align: left;
+  width: 50%;
+  padding-top: 2%;
+}
+@media (max-width: 500px) {
+  .container .main .content1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+.container footer {
+  text-align: center;
+}
