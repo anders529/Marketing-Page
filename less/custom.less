@@ -2,7 +2,6 @@ body {
     background-color: @main-bg;
     font-family: 'Roboto', sans-serif;
 }
-
 header {
     width: 100%;
     background-color: @navigation-border;
@@ -12,6 +11,8 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-left: 20%;
+        margin-right: 20%;
         @media @mobile {
             display: flex;
             flex-direction: column;
@@ -19,6 +20,7 @@ header {
         a {
             color: @font-color;
             text-align: center;
+            text-decoration: none;
             width: 100%;
             @media @mobile {
                 padding: 3%;

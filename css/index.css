@@ -12,6 +12,8 @@ header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 @media (max-width: 500px) {
   header nav {
@@ -22,6 +24,7 @@ header nav {
 header nav a {
   color: #FFFFFF;
   text-align: center;
+  text-decoration: none;
   width: 100%;
 }
 @media (max-width: 500px) {
