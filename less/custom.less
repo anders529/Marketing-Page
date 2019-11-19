@@ -2,13 +2,14 @@ body {
     background-color: @main-bg;
     font-family: 'Roboto', sans-serif;
 }
-
 header {
     width: 100%;
     background-color: @navigation-border;
     padding: 2%;
     nav {
         text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -16,9 +17,23 @@ header {
             display: flex;
             flex-direction: column;
         }
+        .cursive {
+            font-family: 'Pacifico', cursive;
+            a {
+                float: left;
+            }
+        }
+        .alignNav {
+            float: right;
+            margin-left: 40%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
         a {
             color: @font-color;
             text-align: center;
+            text-decoration: none;
             width: 100%;
             @media @mobile {
                 padding: 3%;
