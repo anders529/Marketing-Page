@@ -9,17 +9,30 @@ header {
 }
 header nav {
   text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-left: 20%;
-  margin-right: 20%;
 }
 @media (max-width: 500px) {
   header nav {
     display: flex;
     flex-direction: column;
   }
+}
+header nav .cursive {
+  font-family: 'Pacifico', cursive;
+}
+header nav .cursive a {
+  float: left;
+}
+header nav .alignNav {
+  float: right;
+  margin-left: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 header nav a {
   color: #FFFFFF;
