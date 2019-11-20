@@ -10,8 +10,7 @@ body {
         padding-top: 3%;
         .flex-row();
         @media @mobile {
-            display: flex;
-            flex-direction: column;
+            .flex-center();
         }
         .image {
             width: 50%;
@@ -35,7 +34,31 @@ body {
             }
         }
     }
+}
+    .info {
+        .margincontain();
+        .flex-row();
+        justify-content: center;
+        text-align: left;
+        padding-top: 5%;
+            @media @mobile {
+                .flex-center();
+                width: 100%;
+                margin-left: 1px;
+                margin-right: 1px;
+            }
+        div {
+            width: 33%;
+            @media @mobile {
+                .flex-center();
+                width: 100%;
+            }
+        }
+        .stuff {
+            padding-right: 5%;
+        }
+    }
     footer {
         text-align: center;
+        padding-top: 3%;
     }
-}

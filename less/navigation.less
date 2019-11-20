@@ -22,6 +22,10 @@ header {
                 -moz-transition: opacity 0.25s ease-in-out;
                 -ms-transition: opacity 0.25s ease-in-out;
                 -o-transition: opacity 0.25s ease-in-out;
+
+                @media @mobile {
+                    padding: 5%;
+                }
             }
             a:hover {
                 color: @button-bg;
@@ -29,9 +33,6 @@ header {
                 -moz-transition: opacity 0.25s ease-in-out;
                 -ms-transition: opacity 0.25s ease-in-out;
                 -o-transition: opacity 0.25s ease-in-out;
-            }
-            @media @mobile {
-                padding: 5%;
             }
           }
         }
