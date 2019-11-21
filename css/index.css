@@ -120,7 +120,6 @@ footer {
   text-align: center;
 }
 body {
-  background-color: #D4D7FE;
   font-family: 'Roboto', sans-serif;
 }
 .container {
@@ -191,6 +190,16 @@ body {
 }
 .info div {
   width: 33%;
+  padding: 5%;
+}
+.info div .droominfimg {
+  width: 100%;
+}
+.info div .stuffimg {
+  width: 100%;
+}
+.info div .moreimg {
+  width: 100%;
 }
 @media (max-width: 500px) {
   .info div {
@@ -200,9 +209,6 @@ body {
     text-align: center;
     width: 100%;
   }
-}
-.info .stuff {
-  padding-right: 5%;
 }
 footer {
   text-align: center;
