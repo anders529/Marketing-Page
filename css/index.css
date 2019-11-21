@@ -88,6 +88,12 @@ header nav a:hover {
   width: 50%;
   height: 50%;
 }
+@media (max-width: 500px) {
+  .main-team .christina img {
+    width: 100%;
+    margin: auto;
+  }
+}
 .main-team .row1 {
   width: 100%;
   display: flex;
@@ -100,7 +106,14 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-top: 10%;
   }
+}
+.main-team .row1 .aaronimg {
+  width: 90%;
+}
+.main-team .row1 .benimg {
+  width: 100%;
 }
 .main-team .row1 div {
   width: 50%;
@@ -159,6 +172,11 @@ header nav a:hover {
 }
 footer {
   text-align: center;
+}
+@media (max-width: 800px) {
+  footer {
+    margin-top: 10%;
+  }
 }
 body {
   font-family: 'Roboto', sans-serif;
