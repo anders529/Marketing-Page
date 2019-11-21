@@ -14,6 +14,10 @@
                 margin-right: auto;
                 width: 50%;
                 height: 50%;
+                @media @mobile {
+                    width: 100%;
+                    margin: auto;
+                }
             }
         }
         .row1 {
@@ -21,6 +25,13 @@
             .flex-row();
             @media @mobile {
                 .flex-center();
+                padding-top: 10%;
+            }
+            .aaronimg {
+                width: 90%;
+            }
+            .benimg {
+                width: 100%;
             }
             div {
                 width: 50%;
@@ -64,4 +75,7 @@
     }
     footer {
         text-align: center;
+        @media @tablet {
+            margin-top: 10%;
+        }
     }
