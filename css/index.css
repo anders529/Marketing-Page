@@ -20,10 +20,35 @@ header nav {
 header nav .cursive {
   font-family: 'Pacifico', cursive;
 }
+header nav .btn {
+  background-color: #539987;
+  border: 1px solid #539987;
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+}
+header nav .btn:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  color: #539987;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+}
 header nav a {
   text-align: center;
   text-decoration: none;
   color: #FFFFFF;
+  padding-top: 1.5%;
   -webkit-transition: opacity 0.25s ease-in-out;
   -moz-transition: opacity 0.25s ease-in-out;
   -ms-transition: opacity 0.25s ease-in-out;
@@ -56,6 +81,12 @@ header nav a:hover {
 }
 .main-team .meet {
   text-align: center;
+}
+.main-team .christina img {
+  margin-left: 25%;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
 }
 .main-team .row1 {
   width: 100%;
@@ -103,6 +134,9 @@ header nav a:hover {
   width: 50%;
   padding: 5%;
 }
+.main-team .row2 div .youngimg {
+  width: 100%;
+}
 @media (max-width: 500px) {
   .main-team .row2 div {
     display: flex;
@@ -114,6 +148,9 @@ header nav a:hover {
   }
 }
 .main-team h2 {
+  text-align: center;
+}
+.main-team h4 {
   text-align: center;
 }
 footer {
@@ -160,13 +197,18 @@ body {
 .container .main .content1 {
   text-align: left;
   width: 50%;
-  padding-top: 2%;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 @media (max-width: 500px) {
   .container .main .content1 {
     width: 100%;
     text-align: center;
   }
+}
+.filler {
+  text-align: center;
+  margin-top: 3%;
 }
 .info {
   margin-left: 20%;
@@ -238,4 +280,28 @@ footer {
 .margincontain {
   margin-left: 20%;
   margin-right: 20%;
+}
+.custom-button {
+  background-color: #539987;
+  border: 1px solid #539987;
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+}
+.hover-button {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+  color: #539987;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
 }
