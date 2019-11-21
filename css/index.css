@@ -110,7 +110,10 @@ header nav a:hover {
   }
 }
 .main-team .row1 .aaronimg {
-  width: 90%;
+  width: 80%;
+  transform: rotate(-90deg);
+  padding-bottom: 10%;
+  margin-left: 15%;
 }
 .main-team .row1 .benimg {
   width: 100%;
