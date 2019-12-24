@@ -192,7 +192,6 @@ body {
   text-align: left;
 }
 .container .main {
-  padding-top: 3%;
   display: flex;
   flex-direction: row;
   text-align: left;
@@ -220,10 +219,10 @@ body {
   width: 100%;
 }
 .container .main .content1 {
-  text-align: left;
+  text-align: center;
   width: 50%;
-  padding-top: 5%;
   padding-left: 5%;
+  margin-top: 5%;
 }
 @media (max-width: 500px) {
   .container .main .content1 {
@@ -231,18 +230,14 @@ body {
     text-align: center;
   }
 }
-.filler {
-  text-align: center;
-  margin-top: 3%;
-}
 .info {
   margin-left: 20%;
   margin-right: 20%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   text-align: left;
-  padding-top: 5%;
+  justify-content: center;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .info {
@@ -263,6 +258,7 @@ body {
   width: 100%;
 }
 .info div .stuffimg {
+  height: 55%;
   width: 100%;
 }
 .info div .moreimg {
@@ -279,7 +275,6 @@ body {
 }
 footer {
   text-align: center;
-  padding-top: 3%;
 }
 .flex-center {
   display: flex;
